@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+}
+
+#profile {
+    padding: 65px;
+    background-color: rgb(120, 128, 112);
+}
+
+#profile img {
+    height: 350px;
+    border-radius: 50%;
+}
+
+#content {
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* class mengunakan . # merupakan id dari html */
+/* padding menggatur jarak atas atau bawah */
+
+#skill {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 30%;
+    border: 1px solid red;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card {
+    padding: 20px;
+}
+
+hr {
+    margin: 50px;
+}
+
+footer {
+    padding: 30px;
+
+}
+
+footer a {
+    margin: 20px;
+}
